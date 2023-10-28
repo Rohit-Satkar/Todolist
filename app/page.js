@@ -42,7 +42,7 @@ const page = () => {
           </nav>
         </div>
         <div>
-          <form className='flex-col items-center space-x-40' onSubmit={RealoadHandler}>
+          <form className='flex-col items-center space-x-10' onSubmit={RealoadHandler}>
             <input className='placeholder:italic m-10 border-2 border-black px-4 py-2 rounded' placeholder = "Add your task..." type="text"
             value={title}
             onChange={(e)=>{
@@ -55,7 +55,7 @@ const page = () => {
               setdesc(e.target.value)
             }}/>
             
-            <button className='h-10 w-32 bg-black rounded border-none text-white'>Add Task</button>
+            <button className='h-10 w-32 bg-red-600 rounded border-none text-white'>Add Task</button>
           </form>
           <hr/>
           <div>
