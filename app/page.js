@@ -42,7 +42,7 @@ const page = () => {
           </nav>
         </div>
         <div>
-          <form className='flex items-center space-x-40' onSubmit={RealoadHandler}>
+          <form className='flex-col items-center space-x-40' onSubmit={RealoadHandler}>
             <input className='placeholder:italic m-10 border-2 border-black px-4 py-2 rounded' placeholder = "Add your task..." type="text"
             value={title}
             onChange={(e)=>{
